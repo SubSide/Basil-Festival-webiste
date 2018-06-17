@@ -127,7 +127,7 @@
             <div class="col-xs-12">
                 <h3>Over</h3>
                 <p>
-                    BASIL: Catena Open Air is een gratis eendaags duurzaam festival dat zaterdag 1 september in Park Matilo te Leiden plaats zal vinden. Het festival wordt georganiseerd door leden van studentenvereniging VSL Catena te Leiden. Twee jaar geleden was de eerste versie van BASIL: Catena Open Air. Het festival biedt een podium voor duurzame initiatieven en promoot een groene leefwijze. Daarbij is het festival zelf duurzaam opgezet met als doel zo min mogelijk druk op het milieu en de omgeving te zetten. BASIL: Catena Open Air opent met lezingen en verschillende workshops die in het teken staan van duurzaamheid. Daarnaast zullen er eetkraampjes en een pop-upmarkt zijn. ’s Avonds zullen er verschillende bands en DJ’s optreden.
+                    BASIL: Catena Open Air is een gratis eendaags duurzaam festival dat zaterdag 1 september in Park Matilo te Leiden plaats zal vinden. Het festival wordt georganiseerd door leden van studentenvereniging V.S.L. Catena te Leiden. Twee jaar geleden was de eerste versie van BASIL: Catena Open Air. Het festival biedt een podium voor duurzame initiatieven en promoot een groene leefwijze. Daarbij is het festival zelf duurzaam opgezet met als doel zo min mogelijk druk op het milieu en de omgeving te zetten. BASIL: Catena Open Air opent met lezingen en verschillende workshops die in het teken staan van duurzaamheid. Daarnaast zullen er eetkraampjes en een pop-upmarkt zijn. ’s Avonds zullen er verschillende bands en DJ’s optreden.
                 </p>
             </div>
             <div class="col-xs-12">
@@ -139,7 +139,7 @@
             <div class="col-xs-12">
                 <h3>Wie zijn wij</h3>
                 <p>
-                    BASIL: Catena Open Air wordt georganiseerd door de Airco, de Catena Open Air commissie. De Airco is een commissie binnen VSL Catena. De leden van deze commissie zijn allen zeer gemotiveerd voor een groenere wereld en hopen hun visie met dit festival over te kunnen dragen.
+                    BASIL: Catena Open Air wordt georganiseerd door de Airco, de Catena Open Air commissie. De Airco is een commissie binnen V.S.L. Catena. De leden van deze commissie zijn allen zeer gemotiveerd voor een groenere wereld en hopen hun visie met dit festival over te kunnen dragen.
                 <table class="functions">
                     <tr><th>Voorzitter</th><td>Romilda van Buuringen</td></tr>
                     <tr><th>Secretaris</th><td>Bram Ribbers</td></tr>
@@ -157,7 +157,7 @@
             <div class="col-xs-12">
                 <h3>V.S.L. Catena</h3>
                 <p>
-                    VSL Catena is een van de vijf grote studentengezelligheidsverenigingen in Leiden. Catena heeft meer dan 1000 leden en een eigen pand dat gevestigd is in de Kolfmakersteeg. Catena onderscheidt zich van de andere gezelligheidsverenigingen met een vrij en open karakter; bij Catena moet niets, maar mag alles. Bij Catena krijg je geen ontgroening en heb je geen verplichtingen. Lid zijn is vrijblijvend, je enige verplichting is het betalen van je lidmaatschap. Het karakter van Catena wordt ook wel eens omschreven als alternatief, er wordt bijvoorbeeld meer rock en metalmuziek gedraaid dan bij andere verenigingen. Catena draait volledig op haar eigen leden, zij draaien bar, koken, organiseren de feesten, maken de versiering en zijn dj en lj.
+                    V.S.L. Catena is een van de vijf grote studentengezelligheidsverenigingen in Leiden. Catena heeft meer dan 1000 leden en een eigen pand dat gevestigd is in de Kolfmakersteeg. Catena onderscheidt zich van de andere gezelligheidsverenigingen met een vrij en open karakter; bij Catena moet niets, maar mag alles. Bij Catena krijg je geen ontgroening en heb je geen verplichtingen. Lid zijn is vrijblijvend, je enige verplichting is het betalen van je lidmaatschap. Het karakter van Catena wordt ook wel eens omschreven als alternatief, er wordt bijvoorbeeld meer rock en metalmuziek gedraaid dan bij andere verenigingen. Catena draait volledig op haar eigen leden, zij draaien bar, koken, organiseren de feesten, maken de versiering en zijn dj en lj.
                 </p>
             </div>
         </div>
@@ -247,7 +247,7 @@
                     <p>Contact: airco@vslcatena.nl</p>
                     <p><a href="https://www.facebook.com/Basil-Catena-Open-Air-1096208103753770/">Facebook</a></p>
                     <p>
-                        VSL Catena<br />
+                        V.S.L. Catena<br />
                         Kolfmakersteeg 8<br />
                         2311 VG Leiden
                     </p>
