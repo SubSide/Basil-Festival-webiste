@@ -97,7 +97,7 @@
                 Op zaterdag 1 september 2018 organiseert de studentenvereniging V.S.L. Catena een GRATIS festival in Park Matilo te Leiden dat duurzaamheid zal promoten!
             </div>
             <div class="col-xs-12 text-center extra-info">
-                Wil je op de hoogte worden gehouden van ons festival? kijk dan regelmatig op onze site voor het laatste nieuws.
+                Wil je op de hoogte worden gehouden van ons festival? Kijk dan regelmatig op onze site voor het laatste nieuws.
             </div>
             <div class="col-xs-12 info-blocks">
                 <div class="row">
@@ -127,7 +127,7 @@
             <div class="col-xs-12">
                 <h3>Over</h3>
                 <p>
-                    BASIL: Catena Open Air is een gratis eendaags duurzaam festival wat zaterdag 1 september in Park Matilo te Leiden plaats zal vinden. Het festival wordt georganiseerd door leden van studentenvereniging VSL Catena te Leiden. Twee jaar geleden was de eerste versie van BASIL: Catena Open Air. Het festival biedt een podium voor duurzame initiatieven en promoot een groene leefwijze. Daarbij is het festival zelf duurzaam opgezet met als doel zo min mogelijk druk op het milieu en de omgeving te zetten. BASIL: Catena Open Air opent met lezingen en verschillende workshops die in het teken staan van duurzaamheid. Daarnaast zullen er eetkraampjes en een pop-upmarkt zijn. ’s Avonds zijn er verschillende bands en DJ’s optreden.
+                    BASIL: Catena Open Air is een gratis eendaags duurzaam festival dat zaterdag 1 september in Park Matilo te Leiden plaats zal vinden. Het festival wordt georganiseerd door leden van studentenvereniging VSL Catena te Leiden. Twee jaar geleden was de eerste versie van BASIL: Catena Open Air. Het festival biedt een podium voor duurzame initiatieven en promoot een groene leefwijze. Daarbij is het festival zelf duurzaam opgezet met als doel zo min mogelijk druk op het milieu en de omgeving te zetten. BASIL: Catena Open Air opent met lezingen en verschillende workshops die in het teken staan van duurzaamheid. Daarnaast zullen er eetkraampjes en een pop-upmarkt zijn. ’s Avonds zullen er verschillende bands en DJ’s optreden.
                 </p>
             </div>
             <div class="col-xs-12">
@@ -157,7 +157,7 @@
             <div class="col-xs-12">
                 <h3>V.S.L. Catena</h3>
                 <p>
-                    VSL Catena is een van de vijf grote studentengezelligheidsverenigingen in Leiden. Catena heeft meer dan 1000 leden en een eigen pand wat gevestigd is in de Kolfmakersteeg. Catena onderscheidt zich van de andere gezelligheidsverenigingen met een vrij en open karakter, bij Catena moet niets, maar mag alles. Bij Catena krijg je geen ontgroening en heb je geen verplichtingen. Lid zijn is vrijblijvend, je enige verplichting is het betalen van je lidmaatschap. Het karakter van Catena wordt ook wel eens omschreven als alternatief, er wordt bijvoorbeeld meer rock en metalmuziek gedraaid dan bij andere verenigingen. Catena draait volledig op haar eigen leden, zij draaien bar, koken, organiseren de feesten, maken de versiering en zijn dj en lj.
+                    VSL Catena is een van de vijf grote studentengezelligheidsverenigingen in Leiden. Catena heeft meer dan 1000 leden en een eigen pand dat gevestigd is in de Kolfmakersteeg. Catena onderscheidt zich van de andere gezelligheidsverenigingen met een vrij en open karakter; bij Catena moet niets, maar mag alles. Bij Catena krijg je geen ontgroening en heb je geen verplichtingen. Lid zijn is vrijblijvend, je enige verplichting is het betalen van je lidmaatschap. Het karakter van Catena wordt ook wel eens omschreven als alternatief, er wordt bijvoorbeeld meer rock en metalmuziek gedraaid dan bij andere verenigingen. Catena draait volledig op haar eigen leden, zij draaien bar, koken, organiseren de feesten, maken de versiering en zijn dj en lj.
                 </p>
             </div>
         </div>
