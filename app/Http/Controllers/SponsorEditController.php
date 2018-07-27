@@ -23,7 +23,7 @@ class SponsorEditController extends Controller
 
         $request->validate([
             'name' => 'required|max:170',
-            'description' => 'required|max:170',
+            'description' => 'required',
             'imageUrl' => 'max:170'
         ]);
 
