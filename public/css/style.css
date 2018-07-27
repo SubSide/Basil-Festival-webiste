@@ -258,6 +258,7 @@ main .extra-info {
 .artist .artist-photo {
     margin-left: 10px;
     margin-bottom: 10px;
+    max-width: 300px;
 }
 
 
@@ -303,6 +304,7 @@ main .extra-info {
 .sponsor-photo {
     margin-right: 10px;
     margin-bottom: 10px;
+    max-width: 300px;
 }
 
 .contact {
