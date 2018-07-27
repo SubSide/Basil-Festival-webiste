@@ -183,7 +183,7 @@
                             @if($artist->picture_url != null)
                                 <img class="pull-right artist-photo" src="{{ $artist->picture_url }}" />
                             @endif
-                            {{ $artist->description }}
+                            {{ nl2br($artist->description) }}
                         </div>
                     </div>
                 </div>
@@ -230,7 +230,7 @@
                 <div class="col-xs-12 sponsor">
                     <img class="pull-left sponsor-photo" src="{{ $sponsor->imageUrl }}" />
                     <h3>{{ $sponsor->name }}</h3>
-                     {{  $sponsor->description }}
+                     {{  nl2br($sponsor->description) }}
                 </div>
             @empty
                 <div class="col-xs-12 text-center"><p>To be announced</p></div>
