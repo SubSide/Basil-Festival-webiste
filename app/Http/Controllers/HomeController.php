@@ -3,7 +3,9 @@
 namespace App\Http\Controllers;
 
 use App\Artist;
+use App\Catering;
 use App\Faq;
+use App\Lezing;
 use App\News;
 use App\Sponsor;
 use Illuminate\Http\Request;
@@ -22,6 +24,8 @@ class HomeController extends Controller
         $faqs = Faq::all();
         $news = News::all();
         $sponsors = Sponsor::all();
-        return view('welcome', compact('artists', 'faqs', 'news', 'sponsors'));
+        $catering = Catering::all();
+        $lezingen = Lezing::all();
+        return view('welcome', compact('artists', 'faqs', 'news', 'sponsors', 'catering', 'lezingen'));
     }
 }

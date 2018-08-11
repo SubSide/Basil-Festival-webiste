@@ -140,18 +140,23 @@
                 <h3>Wie zijn wij</h3>
                 <p>
                     BASIL: Catena Open Air wordt georganiseerd door de Airco, de Catena Open Air commissie. De Airco is een commissie binnen V.S.L. Catena. De leden van deze commissie zijn allen zeer gemotiveerd voor een groenere wereld en hopen hun visie met dit festival over te kunnen dragen.
-                <table class="functions">
-                    <tr><th>Voorzitter</th><td>Romilda van Buuringen</td></tr>
-                    <tr><th>Secretaris</th><td>Bram Ribbers</td></tr>
-                    <tr><th>Penningmeester</th><td>Melloney Schenk</td></tr>
-                    <tr><th>Acquisitie</th><td>Bj&ouml;rn de Graaf</td></tr>
-                    <tr><th>Bands en acts</th><td>Thijs Hofland</td></tr>
-                    <tr><th>Catering</th><td>Daphne van Ginneken</td></tr>
-                    <tr><th>Locatie</th><td>Jonathan Koh</td></tr>
-                    <tr><th>Logistiek</th><td>Thomas van den Bulk</td></tr>
-                    <tr><th>Promo beeld</th><td>Lalique Molenaar</td></tr>
-                    <tr><th>Promo tekst</th><td>Paula Hart</td></tr>
-                </table>
+                    <table class="functions">
+                        <tr><th>Voorzitter</th><td>Romilda van Buuringen</td></tr>
+                        <tr><th>Secretaris</th><td>Bram Ribbers</td></tr>
+                        <tr><th>Penningmeester</th><td>Melloney Schenk</td></tr>
+                        <tr><th>Acquisitie</th><td>Bj&ouml;rn de Graaf</td></tr>
+                        <tr><th>Bands en acts</th><td>Thijs Hofland</td></tr>
+                        <tr><th>Catering</th><td>Daphne van Ginneken</td></tr>
+                        <tr><th>Locatie</th><td>Jonathan Koh</td></tr>
+                        <tr><th>Logistiek</th><td>Thomas van den Bulk</td></tr>
+                        <tr><th>Techniek</th><td>Tijmen Mulder</td></tr>
+                        <tr><th>Promo beeld</th><td>Lalique Molenaar</td></tr>
+                        <tr><th>Promo tekst</th><td>Paula Hart</td></tr>
+                    </table>
+                </p>
+                <p>
+                    <img class="team-image" src="{{ asset("imgs/team.jpg") }}" />
+                    <div class="row"><i class="col-xs-12 col-md-6">Van links naar rechts: Thijs Hofland, Bj&ouml;rn de Graaf, Romilda van Buuringen, Bram Ribbers, Melloney Schenk, Thomas van den Bulk, Daphne van Ginneken, Paula Hart, Lalique Molenaar, Jonathan Koh, Vivienne Ju, Enrico Ensing, Tijmen Mulder</i></div>
                 </p>
             </div>
             <div class="col-xs-12">
@@ -186,6 +191,55 @@
                             {!! nl2br($artist->description) !!}
                         </div>
                     </div>
+                </div>
+            @empty
+                <div class="col-xs-12 text-center"><p>To be announced</p></div>
+            @endforelse
+        </div>
+    </div>
+</div>
+<div id="catering" class="color-container lightblue-container">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                <h2>Lezingen</h2>
+            </div>
+            @forelse($lezingen as $lezing)
+                <div class="col-xs-12 artist">
+                    <div class="row short">
+                        <div class="col-xs-9">
+                            {{ $lezing->name }}
+                        </div>
+                        <div class="col-xs-3">{{ $lezing->time_from }}- {{ $lezing->time_to }}</div>
+                    </div>
+                    <div class="row long">
+                        <div class="col-xs-12">
+                            @if($lezing->picture_url != null)
+                                <img class="pull-right artist-photo" src="{{ $lezing->picture_url }}" />
+                            @endif
+                            {!! nl2br($lezing->description) !!}
+                        </div>
+                    </div>
+                </div>
+            @empty
+                <div class="col-xs-12 text-center"><p>To be announced</p></div>
+            @endforelse
+        </div>
+    </div>
+</div>
+<div id="catering" class="color-container lightblue-container">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                <h2>Catering</h2>
+            </div>
+            @forelse($catering as $cater)
+                <div class="col-xs-12 sponsor">
+                    @if($cater->picture_url != null)
+                        <img class="pull-left sponsor-photo" src="{{ $cater->picture_url }}" />
+                    @endif
+                    <h3>{{ $cater->name }}</h3>
+                    {!! nl2br($cater->description) !!}
                 </div>
             @empty
                 <div class="col-xs-12 text-center"><p>To be announced</p></div>

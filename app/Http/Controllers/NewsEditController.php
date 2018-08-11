@@ -36,4 +36,9 @@ class NewsEditController extends Controller
         $news = News::all();
         return view('admin.list.news', compact('news'));
     }
+
+    function delete(Request $request, $id){
+        News::find($id)->delete();
+        return redirect(route('list.news'));
+    }
 }

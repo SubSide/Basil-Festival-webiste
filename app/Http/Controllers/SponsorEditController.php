@@ -36,4 +36,9 @@ class SponsorEditController extends Controller
         $sponsors = Sponsor::all();
         return view('admin.list.sponsor', compact('sponsors'));
     }
+
+    function delete(Request $request, $id){
+        Sponsor::find($id)->delete();
+        return redirect(route('list.sponsors'));
+    }
 }

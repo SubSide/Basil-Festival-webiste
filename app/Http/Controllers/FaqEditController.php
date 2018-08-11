@@ -35,4 +35,9 @@ class FaqEditController extends Controller
         $faqs = Faq::all();
         return view('admin.list.faq', compact('faqs'));
     }
+
+    function delete(Request $request, $id){
+        Faq::find($id)->delete();
+        return redirect(route('list.faqs'));
+    }
 }

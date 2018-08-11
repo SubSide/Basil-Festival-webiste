@@ -13,3 +13,5 @@
         @endforeach
     </ul>
 @endif
+
+<br /><br /><a href="{{ route('list.faqs') }}">Terug</a>

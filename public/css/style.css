@@ -261,6 +261,11 @@ main .extra-info {
     max-width: 300px;
 }
 
+.team-image {
+    width: 500px;
+    max-width: 100%;
+}
+
 
 .faq-question.expanded .question:first-child:before {
     transform: rotate(-180deg);

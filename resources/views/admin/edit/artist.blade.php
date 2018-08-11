@@ -17,3 +17,5 @@
         @endforeach
     </ul>
 @endif
+
+<br /><br /><a href="{{ route('list.artists') }}">Terug</a>

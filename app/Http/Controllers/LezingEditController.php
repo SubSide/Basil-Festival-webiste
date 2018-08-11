@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Artist;
+use App\Lezing;
 use Illuminate\Http\Request;
 
-class ArtistEditController extends Controller
+class LezingEditController extends Controller
 {
     public function __construct() {
         $this->middleware('auth');
@@ -13,35 +13,34 @@ class ArtistEditController extends Controller
 
     function edit(Request $request, $id = null){
         if($id == null){
-            $artist = new Artist();
+            $lezing = new Lezing();
         } else {
-            $artist = Artist::findOrFail($id);
+            $lezing = Lezing::findOrFail($id);
         }
         if($request->isMethod("GET")){
-            return view('admin.edit.artist', compact('artist'));
+            return view('admin.edit.lezing', compact('lezing'));
         }
 
         $request->validate([
             'name' => 'required|max:170',
-            'genre' => 'required|max:170',
             'time_from' => 'required|max:20',
             'time_to' => 'required|max:20',
             'picture_url' => 'max:170',
             'description' => 'required'
         ]);
 
-        $artist->fill($request->all());
-        $artist->save();
-        return redirect(route('list.artists'));
+        $lezing->fill($request->all());
+        $lezing->save();
+        return redirect(route('list.lezingen'));
     }
 
     function list(Request $request){
-        $artists = Artist::all();
-        return view('admin.list.artist', compact('artists'));
+        $lezingen = Lezing::all();
+        return view('admin.list.lezingen', compact('lezingen'));
     }
 
     function delete(Request $request, $id){
-        Artist::find($id)->delete();
-        return redirect(route('list.artists'));
+        Lezing::find($id)->delete();
+        return redirect(route('list.lezingen'));
     }
 }

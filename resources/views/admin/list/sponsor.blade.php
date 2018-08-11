@@ -17,3 +17,4 @@
     @endforelse
 </table>
 <a href="{{ route('new.sponsor') }}">Nieuw</a>
+<br /><br /><a href="{{ route('admin') }}">Terug</a>
