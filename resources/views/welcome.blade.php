@@ -186,7 +186,7 @@
                     <div class="row long">
                         <div class="col-xs-12">
                             @if($artist->picture_url != null)
-                                <img class="pull-right artist-photo" src="{{ $artist->picture_url }}" />
+                                <img class="pull-right artist-photo col-xs-12 col-sm-4" src="{{ $artist->picture_url }}" />
                             @endif
                             {!! nl2br($artist->description) !!}
                         </div>
@@ -215,7 +215,7 @@
                     <div class="row long">
                         <div class="col-xs-12">
                             @if($lezing->picture_url != null)
-                                <img class="pull-right artist-photo" src="{{ $lezing->picture_url }}" />
+                                <img class="pull-right artist-photo col-xs-12 col-sm-4" src="{{ $lezing->picture_url }}" />
                             @endif
                             {!! nl2br($lezing->description) !!}
                         </div>
@@ -236,7 +236,7 @@
             @forelse($catering as $cater)
                 <div class="col-xs-12 sponsor">
                     @if($cater->picture_url != null)
-                        <img class="pull-left sponsor-photo" src="{{ $cater->picture_url }}" />
+                        <img class="pull-left sponsor-photo col-xs-12 col-sm-4" src="{{ $cater->picture_url }}" />
                     @endif
                     <h3>{{ $cater->name }}</h3>
                     {!! nl2br($cater->description) !!}
@@ -282,7 +282,7 @@
             </div>
             @forelse($sponsors as $sponsor)
                 <div class="col-xs-12 sponsor">
-                    <img class="pull-left sponsor-photo" src="{{ $sponsor->imageUrl }}" />
+                    <img class="pull-left sponsor-photo col-xs-12 col-sm-4" src="{{ $sponsor->imageUrl }}" />
                     <h3>{{ $sponsor->name }}</h3>
                      {!! nl2br($sponsor->description) !!}
                 </div>
