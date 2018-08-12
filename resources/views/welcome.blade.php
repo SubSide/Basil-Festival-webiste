@@ -282,7 +282,9 @@
             </div>
             @forelse($sponsors as $sponsor)
                 <div class="col-xs-12 sponsor">
-                    <img class="pull-left sponsor-photo col-xs-12 col-sm-4" src="{{ $sponsor->imageUrl }}" />
+                    @if($sponsor->imageUrl != null)
+                        <img class="pull-left sponsor-photo col-xs-12 col-sm-4" src="{{ $sponsor->imageUrl }}" />
+                    @endif
                     <h3>{{ $sponsor->name }}</h3>
                      {!! nl2br($sponsor->description) !!}
                 </div>
