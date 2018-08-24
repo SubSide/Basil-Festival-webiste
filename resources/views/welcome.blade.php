@@ -247,6 +247,26 @@
         </div>
     </div>
 </div>
+<div id="popup" class="color-container lightblue-container">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                <h2>Popupmarkt</h2>
+            </div>
+            @forelse($popups as $popup)
+                <div class="col-xs-12 sponsor">
+                    @if($popup->picture_url != null)
+                        <img class="pull-left sponsor-photo col-xs-12 col-sm-4" src="{{ $popup->picture_url }}" />
+                    @endif
+                    <h3>{{ $popup->name }}</h3>
+                    {!! nl2br($popup->description) !!}
+                </div>
+            @empty
+                <div class="col-xs-12 text-center"><p>To be announced</p></div>
+            @endforelse
+        </div>
+    </div>
+</div>
 <div id="faq" class="color-container yellow-container">
     <div class="container">
         <div class="row">

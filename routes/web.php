@@ -20,6 +20,7 @@ Route::get('/admin/catering/list', 'CateringEditController@list')->name('list.ca
 Route::get('/admin/faq/list', 'FaqEditController@list')->name('list.faqs');
 Route::get('/admin/news/list', 'NewsEditController@list')->name('list.news');
 Route::get('/admin/sponsor/list', 'SponsorEditController@list')->name('list.sponsors');
+Route::get('/admin/popupmarkt/list', 'PopupEditController@list')->name('list.popup');
 
 Route::match(['get', 'post'], '/admin/artist/{id}/edit', 'ArtistEditController@edit')->name('edit.artist');
 Route::match(['get', 'post'], '/admin/lezing/{id}/edit', 'LezingEditController@edit')->name('edit.lezing');
@@ -27,6 +28,7 @@ Route::match(['get', 'post'], '/admin/catering/{id}/edit', 'CateringEditControll
 Route::match(['get', 'post'], '/admin/faq/{id}/edit', 'FaqEditController@edit')->name('edit.faq');
 Route::match(['get', 'post'], '/admin/news/{id}/edit', 'NewsEditController@edit')->name('edit.news');
 Route::match(['get', 'post'], '/admin/sponsor/{id}/edit', 'SponsorEditController@edit')->name('edit.sponsor');
+Route::match(['get', 'post'], '/admin/popupmarkt/{id}/edit', 'PopupEditController@edit')->name('edit.popup');
 
 Route::match(['get', 'post'], '/admin/artist/{id}/delete', 'ArtistEditController@delete')->name('delete.artist');
 Route::match(['get', 'post'], '/admin/lezing/{id}/delete', 'LezingEditController@delete')->name('delete.lezing');
@@ -34,6 +36,7 @@ Route::match(['get', 'post'], '/admin/catering/{id}/delete', 'CateringEditContro
 Route::match(['get', 'post'], '/admin/faq/{id}/delete', 'FaqEditController@delete')->name('delete.faq');
 Route::match(['get', 'post'], '/admin/news/{id}/delete', 'NewsEditController@delete')->name('delete.news');
 Route::match(['get', 'post'], '/admin/sponsor/{id}/delete', 'SponsorEditController@delete')->name('delete.sponsor');
+Route::match(['get', 'post'], '/admin/popupmarkt/{id}/delete', 'PopupEditController@delete')->name('delete.popup');
 
 Route::match(['get', 'post'], '/admin/artist/new', 'ArtistEditController@edit')->name('new.artist');
 Route::match(['get', 'post'], '/admin/lezing/new', 'LezingEditController@edit')->name('new.lezing');
@@ -41,6 +44,7 @@ Route::match(['get', 'post'], '/admin/catering/new', 'CateringEditController@edi
 Route::match(['get', 'post'], '/admin/faq/new', 'FaqEditController@edit')->name('new.faq');
 Route::match(['get', 'post'], '/admin/news/new', 'NewsEditController@edit')->name('new.news');
 Route::match(['get', 'post'], '/admin/sponsor/new', 'SponsorEditController@edit')->name('new.sponsor');
+Route::match(['get', 'post'], '/admin/popupmarkt/new', 'PopupEditController@edit')->name('new.popup');
 
 
 Auth::routes();

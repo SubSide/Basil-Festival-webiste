@@ -7,6 +7,7 @@ use App\Catering;
 use App\Faq;
 use App\Lezing;
 use App\News;
+use App\Popupmarkt;
 use App\Sponsor;
 use Illuminate\Http\Request;
 
@@ -26,6 +27,7 @@ class HomeController extends Controller
         $sponsors = Sponsor::all();
         $catering = Catering::all();
         $lezingen = Lezing::all();
-        return view('welcome', compact('artists', 'faqs', 'news', 'sponsors', 'catering', 'lezingen'));
+        $popups = Popupmarkt::all();
+        return view('welcome', compact('artists', 'faqs', 'news', 'sponsors', 'catering', 'lezingen', 'popups'));
     }
 }
