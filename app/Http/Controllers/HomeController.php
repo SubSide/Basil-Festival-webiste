@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Artist;
 use App\Catering;
 use App\Faq;
+use App\Huisregel;
 use App\Lezing;
 use App\News;
 use App\Popupmarkt;
@@ -28,6 +29,7 @@ class HomeController extends Controller
         $catering = Catering::orderBy('name')->get();
         $lezingen = Lezing::orderBy('time_from')->get();
         $popups = Popupmarkt::orderBy('name')->get();
-        return view('welcome', compact('artists', 'faqs', 'news', 'sponsors', 'catering', 'lezingen', 'popups'));
+        $huisregels = Huisregel::all();
+        return view('welcome', compact('artists', 'faqs', 'news', 'sponsors', 'catering', 'lezingen', 'popups', 'huisregels'));
     }
 }

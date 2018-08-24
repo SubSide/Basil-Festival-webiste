@@ -23,7 +23,7 @@ class FaqEditController extends Controller
 
         $request->validate([
             'question' => 'required|max:170',
-            'answer' => 'required|max:170',
+            'answer' => 'required|max',
         ]);
 
         $faq->fill($request->all());

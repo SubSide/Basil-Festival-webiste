@@ -1,6 +1,7 @@
 <form method="POST">
     {{ csrf_field() }}
     Name:<br /><input type="text" name="name" value="{{ old('name', $sponsor->name) }}" /><br /><br />
+    Url:<br /><input type="text" name="url" value="{{ old('url', $sponsor->url) }}" /><br /><br />
     ImageUrl:<br /><input type="text" name="imageUrl" value="{{ old('imageUrl'. $sponsor->imageUrl) }}" /><br /><br />
     Description:<br /><textarea name="description">{{ old('description', $sponsor->description) }}</textarea><br /><br />
     <input type="submit" value="Submit" />

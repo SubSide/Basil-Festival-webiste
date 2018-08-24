@@ -106,7 +106,7 @@
                             <div class="info-block" style="background-color: {{ $newsItem->backgroundColor }}">
                                 <h3>{{ $newsItem->title }}</h3>
                                 <p>
-                                    {{ $newsItem->content }}
+                                    {!! $newsItem->content !!}
                                 </p>
                             </div>
                         </div>
@@ -294,6 +294,33 @@
         </div>
     </div>
 </div>
+<div id="huisregels" class="color-container yellow-container">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2 class="text-center">Huisregels</h2>
+            </div>
+            @forelse($huisregels as $huisregel)
+                <div class="col-xs-6">
+                    <div class="col-xs-12 faq-question">
+                        <div class="row question">
+                            <div class="col-xs-9">
+                                {{ $huisregel->question }}
+                            </div>
+                        </div>
+                        <div class="row answer">
+                            <div class="col-xs-12">
+                                {{ $huisregel->answer }}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            @empty
+                <div class="col-xs-12 text-center"><p>To be announced</p></div>
+            @endforelse
+        </div>
+    </div>
+</div>
 <div id="sponsors" class="color-container green-container">
     <div class="container">
         <div class="row">
@@ -305,7 +332,13 @@
                     @if($sponsor->imageUrl != null)
                         <img class="pull-left sponsor-photo col-xs-12 col-sm-4" src="{{ $sponsor->imageUrl }}" />
                     @endif
-                    <h3>{{ $sponsor->name }}</h3>
+                    <h3>
+                        @if($sponsor->url != null)
+                            <a href="{{ $sponsor->url }}">{{ $sponsor->name }}</a>
+                        @else
+                            {{ $sponsor->name }}
+                        @endif
+                    </h3>
                      {!! nl2br($sponsor->description) !!}
                 </div>
             @empty
