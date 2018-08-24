@@ -21,13 +21,13 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $artists = Artist::all();
+        $artists = Artist::orderBy('time_from')->get();
         $faqs = Faq::all();
-        $news = News::all();
-        $sponsors = Sponsor::all();
-        $catering = Catering::all();
-        $lezingen = Lezing::all();
-        $popups = Popupmarkt::all();
+        $news = News::orderBy('id', 'desc')->get();
+        $sponsors = Sponsor::orderBy('name')->get();
+        $catering = Catering::orderBy('name')->get();
+        $lezingen = Lezing::orderBy('time_from')->get();
+        $popups = Popupmarkt::orderBy('name')->get();
         return view('welcome', compact('artists', 'faqs', 'news', 'sponsors', 'catering', 'lezingen', 'popups'));
     }
 }
