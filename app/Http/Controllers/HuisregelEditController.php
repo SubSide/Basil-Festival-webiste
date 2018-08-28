@@ -23,7 +23,7 @@ class HuisregelEditController extends Controller
 
         $request->validate([
             'question' => 'required|max:170',
-            'answer' => 'required|max',
+            'answer' => 'required',
         ]);
 
         $huisregel->fill($request->all());
